@@ -30,28 +30,49 @@ const userSchema = new mongoose.Schema({
     enum : ['user', 'admin'],
     default : 'user'
   },
+  searchString : {
+    type : String,
+    index : true,
+  }
 },
 {
     timestamps : true //This will add createdAt and updatedAt
 });
 
 //Hash pssword
-userSchema.pre('save', async function (next) {
-    if(!this.isModified('password')) return next();
-    try {
-        this.password = await argon2.hash(this.password)
-        next()
-    } catch (error) {
-        console.error(error.stack)
-        next(err)
+userSchema.pre("save", async function (next) {
+  if (!this.isModified("password")) return next();
+  try {
+    if (this.isModified("password")) {
+      this.password = await argon2.hash(this.password);
     }
-})
+
+    if (this.isModified("username") || this.isModified("email")) {
+      this.searchString =
+        `${this.username.trim()} ${this.email.trim()}`.toLowerCase();
+    }
+    next();
+  } catch (error) {
+    console.error(error.stack);
+    next(err);
+  }
+});
 
 //Optionally hide sensitive fields
 userSchema.methods.toJSON = function(){
     const obj = this.toObject();
     delete obj.password
     return obj
+}
+
+//compared password
+userSchema.methods.comparedPassword = async function (candidatePassword) {
+  try {
+    return await argon2.verify(this.password, candidatePassword)
+  } catch (error) {
+    console.error(error.stack)
+    throw new Error('Error comparing password')
+  }
 }
 
 const User = mongoose.model('user', userSchema)
