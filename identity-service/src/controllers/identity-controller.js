@@ -20,7 +20,7 @@ const registerUser = async(req, res) => {
           message: error.details[0].message,
         });
       }
-      const { username, email, password } = req.body;
+      const { username, email, password, role } = req.body;
       let user = await User.findOne({
         $or: [{ email }, { username }],
       });
@@ -37,6 +37,7 @@ const registerUser = async(req, res) => {
         username,
         email,
         password,
+        role
       });
 
       await user.save()

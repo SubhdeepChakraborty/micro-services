@@ -24,7 +24,8 @@ app.use(express.json()); //to parse json data
 
 app.use((req,res,next) => {
     logger.info(`Request received: ${req.method} ${req.url}`);
-    logger.info(`Request body: ${JSON.stringify(req.body)}`);
+    //The next line code is just to watch the req body. Note: This can expose sensitive data in production, so use with caution.
+    // logger.info(`Request body: ${JSON.stringify(req.body)}`);
     next();
 })
 
