@@ -68,7 +68,8 @@ userSchema.methods.toJSON = function(){
 //compared password
 userSchema.methods.comparedPassword = async function (candidatePassword) {
   try {
-    return await argon2.verify(this.password, candidatePassword)
+    console.log(this.password, 'password')
+    return await argon2.verify(this.password, candidatePassword.trim())
   } catch (error) {
     console.error(error.stack)
     throw new Error('Error comparing password')

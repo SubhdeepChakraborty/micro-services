@@ -10,4 +10,13 @@ const valiadateUserRegistration = (data) => {
     return schema.validate(data)
 }
 
-export default valiadateUserRegistration;
+const valiadateUserLogin = (data) => {
+  const schema = joi.object({
+    email: joi.string().email().required(),
+    password: joi.string().min(6).required(),
+  });
+  return schema.validate(data);
+};
+
+
+export  {valiadateUserRegistration, valiadateUserLogin};
