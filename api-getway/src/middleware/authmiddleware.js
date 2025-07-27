@@ -1,0 +1,31 @@
+import logger from "../utils/logger.js";
+import jwt from "jsonwebtoken"
+
+const validateToken = (req, res, next) => {
+  const authHeader = req.headers["authorization"];
+  const token = authHeader && authHeader.split(" ")[1];
+
+  if (!token) {
+    logger.warn("Access attempt without token");
+    return res.status(401).send({
+      status: false,
+      message: "Authentication required",
+    });
+  }
+
+  jwt.verify(token, process.env.JWT_SECRET, (err, user) => {
+    if (err) {
+      logger.warn("Access attempt with invalid token");
+      return res.status(401).send({
+        status: false,
+        message: "Invalid token",
+      });
+    }
+
+    console.log(user, "user user");
+    req.user = user;
+    next();
+  });
+};
+
+export {validateToken}

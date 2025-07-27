@@ -53,7 +53,7 @@ const sensitiveRateLimiter = rateLimit({
   legacyHeaders: false,
   message: "Too many requests from this IP, please try again later.",
   handler: (req, res) => {
-    logger.warn(`Sensitive endppoint rate Limit exceeded for IP: ${req.ip}`);
+    logger.warn(`Sensitive endppoint rate limit exceeded for IP: ${req.ip}`);
     res.status(429).send("Too Many Requests");
   },
   store: new RedisStore({
@@ -74,7 +74,7 @@ app.use(errorHandler)
 
 //start server
 app.listen(process.env.PORT || 5000, () => {
-    logger.info(`Server is running on port ${process.env.PORT || 5000}`)
+    logger.info(`Server is running on port ${process.env.PORT || 3001}`);
 })
 
 //unhandler promises rejection
