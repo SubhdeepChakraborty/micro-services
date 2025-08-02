@@ -21,8 +21,7 @@ const validateToken = (req, res, next) => {
         message: "Invalid token",
       });
     }
-
-    console.log(user, "user user");
+    
     req.user = user;
     next();
   });

@@ -13,7 +13,7 @@ const generateToken = async(user) => {
             role: user.role,
           },
           process.env.JWT_SECRET , {
-            expiresIn : '5m'
+            expiresIn : '60m'
           }
         );
 

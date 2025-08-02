@@ -7,8 +7,10 @@ import { validatePost } from "../utils/validate.js";
 const createPost = async (req, res) => {
   logger.info("Hitting creating a new post endpoint");
   try {
-
+    const username = req.query.username
     const post = req.body;
+
+    if(!username) return res.status(400).send({status : false, message : `Please provide username`})
 
     // Validate the post data
     const { error, value } = validatePost(req.body);
@@ -19,12 +21,17 @@ const createPost = async (req, res) => {
         status: false,
       });
     }
-    console.log(req)
+
     // Here you would typically save the post to the database
     const newPost = await Post.create({
       ...value,
       userId: req.user.userId,
     });
+
+    if(newPost){
+      await req.redisClient.del(`posts:${username}`);
+    }
+
     logger.info('Post created successfully...')
     res.status(201).json({
       message: "Post created successfully",
@@ -45,9 +52,43 @@ const createPost = async (req, res) => {
 const getAllpost = async (req, res) => {
   logger.info("Hitting get all posts endpoint....");
   try {
+    const page = parseInt(req.query.page) || 0;
+    const limit = parseInt(req.query.limit) || 10;
+    const username = req.query.username
+
+    if (!username)
+      return res
+        .status(400)
+        .send({ status: false, message: `Please provide username` });
+
+    const cachedKey = `posts:${username}`;
+    const cachePosts = await req.redisClient.get(cachedKey);
+
+    if (cachePosts) {
+      return res.json(JSON.parse(cachePosts))
+    }
+
+    const posts = await Post.find({})
+      .sort({ createdAt: -1 })
+      .skip(page * limit)
+      .limit(limit);
+
+    const totalNoPost = posts.length;
+
+    const result = {
+      posts,
+      currentPage: page,
+      totalPages: Math.ceil(totalNoPost / limit),
+      totalPost: totalNoPost,
+    };
+
+    //Save inside cache most important thing
+    await req.redisClient.setex(cachedKey, 150, JSON.stringify(result));
+
+    return res.status(200).send(result)
   } catch (error) {
     logger.error("Error fetching post:", error);
-    res.status(500).json({
+    return res.status(500).json({
       message: "Internal server error",
       status: false,
     });
@@ -59,9 +100,17 @@ const getAllpost = async (req, res) => {
 const getSinglepost = async (req, res) => {
   logger.info("Hitting single post endpoint ....");
   try {
+    const postId = req.query.postId;
+    const singlePost = await Post.find({
+      _id : postId
+    })
+    return res.status(200).send({
+      status : true,
+      data : singlePost
+    })
   } catch (error) {
     logger.error("Error fetching post:", error);
-    res.status(500).json({
+    return res.status(500).json({
       message: "Internal server error",
       status: false,
     });
@@ -73,6 +122,16 @@ const getSinglepost = async (req, res) => {
 const deleteSinglepost = async (req, res) => {
   logger.info("Hitting delete post endpoint ....");
   try {
+    const postId = req.query.postId
+    const username = req.query.username
+    await Post.deleteOne({
+      _id : postId
+    })
+    await req.redisClient.del(`posts:${username}`)
+    return res.status(200).send({
+      status : true,
+      message : "Post deleted successfully"
+    })
   } catch (error) {
     logger.error("Error deleting post:", error);
     res.status(500).json({
