@@ -16,33 +16,25 @@ const upload = multer({
 }).single('file')
 
 
-router.post("/file-upload", validateToken, authenticationReq, () => {
-    upload(req, res, function(err){
-        if(err instanceof multer.MulterError){
-            logger.error('Multer error while uploading..', err)
-            return res.status(400).send({
-                message : 'Multer error while uploading',
-                error : err.message,
-                stack : err.stack
-            })
-        }else if(err){
-             logger.error("Unknown error while uploading..", err);
-             return res.status(400).send({
-               message: "Multer error while uploading",
-               error: err.message,
-               stack: err.stack,
-             });
-        }
-        if(!req.file){
-            logger.error("No file error while uploading..", err);
-            return res.status(400).send({
-              message: "Multer error while uploading",
-              error: err.message,
-              stack: err.stack,
-            });
-        }
-        next()
-    })
-}, uploadMedia)
+const multerUploadMiddleware = (req, res, next) => {
+  upload(req, res, function (err) {
+    if (err) {
+      const isMulterError = err instanceof multer.MulterError;
+      logger.error(`${isMulterError ? "Multer" : "Unknown"} error`, err);
+      return res.status(400).send({
+        message: `${isMulterError ? "Multer" : "Upload"} error`,
+        error: err.message,
+      });
+    }
+
+    if (!req.file) {
+      return res.status(400).send({ message: "No file uploaded" });
+    }
+
+    next();
+  });
+};
+
+router.post("/file-upload", validateToken, authenticationReq, multerUploadMiddleware, uploadMedia)
 
 export default router

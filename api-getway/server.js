@@ -63,22 +63,22 @@ const proxyOptions = {
 app.use(
   "/v1/media",
   validateToken,
-  proxy(process.env.POST_SERVICE_URL, {
+  proxy(process.env.MEDIA_SERVICE_URL, {
     ...proxyOptions,
     proxyReqOptDecorator: (proxyReqOps, srcReq) => {
       proxyReqOps.headers["x-user-id"] = srcReq.user.userId;
-      if(!srcReq.headers['content-type'].startsWith('multipart/form-data')){
+      if (!srcReq.headers["content-type"].startsWith("multipart/form-data")) {
         proxyReqOps.headers["content-type"] = "application/json";
       }
       return proxyReqOps;
     },
     userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
       logger.info(
-        `Proxying request to Identity Service : ${proxyRes.statusCode}`
+        `Proxying request to Media Service : ${proxyRes.statusCode}`
       );
       return proxyResData;
     },
-    parseReqBody : false
+    parseReqBody: false,
   })
 );
 
@@ -95,7 +95,7 @@ app.use(
     },
     userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
       logger.info(
-        `Proxying request to Identity Service : ${proxyRes.statusCode}`
+        `Proxying request to Posts Service : ${proxyRes.statusCode}`
       );
       return proxyResData;
     },

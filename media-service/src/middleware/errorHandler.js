@@ -4,7 +4,7 @@ const errorHandler = (err, req, res, next) => {
     logger.error(err.stack);
     res.status(err.status || 500).send({
         status : false,
-        message : 'Internal server error', err
+        message : `Internal server error: ${err.stack}`
     })
 }
 

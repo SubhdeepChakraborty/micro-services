@@ -24,8 +24,7 @@ const createPost = async (req, res) => {
 
     // Here you would typically save the post to the database
     const newPost = await Post.create({
-      ...value,
-      userId: req.user.userId,
+      ...value
     });
 
     if(newPost){

@@ -529,3 +529,124 @@
 {"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-02T15:07:19.006Z"}
 {"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-02T16:36:55.178Z"}
 {"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-02T16:36:59.419Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T09:17:37.467Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T09:17:42.035Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T09:35:53.173Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T09:35:57.375Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:14:20.364Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:14:24.394Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:15:27.393Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:15:31.068Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:15:41.601Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:15:45.414Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:15:46.731Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:15:50.197Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:15:51.440Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:15:55.075Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:17:21.387Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:17:25.958Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:17:28.713Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:17:32.321Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:17:59.711Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:18:03.482Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:20:55.114Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:20:59.914Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:21:01.785Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:21:05.541Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:22:06.948Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:22:10.422Z"}
+{"level":"info","message":"Hitting creating a new post endpoint","service":"post-service","timestamp":"2025-08-03T13:23:51.288Z"}
+{"level":"info","message":"Post created successfully...","service":"post-service","timestamp":"2025-08-03T13:23:51.667Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:25:34.576Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:25:39.013Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:25:51.382Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:25:55.105Z"}
+{"level":"info","message":"Hitting creating a new post endpoint","service":"post-service","timestamp":"2025-08-03T13:27:08.421Z"}
+{"level":"info","message":"Post created successfully...","service":"post-service","timestamp":"2025-08-03T13:27:09.012Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:27:48.924Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:27:53.045Z"}
+{"level":"info","message":"Hitting creating a new post endpoint","service":"post-service","timestamp":"2025-08-03T13:28:07.269Z"}
+{"0":"\"","1":"m","10":" ","11":"i","12":"s","13":" ","14":"n","15":"o","16":"t","17":" ","18":"a","19":"l","2":"e","20":"l","21":"o","22":"w","23":"e","24":"d","3":"d","4":"i","5":"a","6":"U","7":"r","8":"l","9":"\"","level":"error","message":"Validation error:","service":"post-service","timestamp":"2025-08-03T13:28:07.274Z"}
+{"level":"info","message":"Hitting creating a new post endpoint","service":"post-service","timestamp":"2025-08-03T13:30:05.707Z"}
+{"level":"info","message":"Post created successfully...","service":"post-service","timestamp":"2025-08-03T13:30:06.071Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:33:02.579Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:33:06.976Z"}
+{"level":"info","message":"Hitting creating a new post endpoint","service":"post-service","timestamp":"2025-08-03T13:33:07.867Z"}
+{"_message":"Post validation failed","errors":{"userId":{"kind":"required","message":"Path `userId` is required.","name":"ValidatorError","path":"userId","properties":{"message":"Path `userId` is required.","path":"userId","type":"required"}}},"level":"error","message":"Error creating post: Post validation failed: userId: Path `userId` is required.","service":"post-service","stack":"ValidationError: Post validation failed: userId: Path `userId` is required.\n    at Document.invalidate (/Users/subhadeepchakraborty/Desktop/Node js/micro-service/social-app/post-service/node_modules/mongoose/lib/document.js:3358:32)\n    at /Users/subhadeepchakraborty/Desktop/Node js/micro-service/social-app/post-service/node_modules/mongoose/lib/document.js:3119:17\n    at /Users/subhadeepchakraborty/Desktop/Node js/micro-service/social-app/post-service/node_modules/mongoose/lib/schemaType.js:1410:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-08-03T13:33:07.881Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:34:23.199Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:34:27.184Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:37:01.433Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:37:06.019Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:37:10.127Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:37:13.856Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:37:17.009Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:37:20.650Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:37:41.548Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:37:44.925Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:38:09.257Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:38:12.774Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:38:17.712Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:38:21.337Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:38:31.888Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:38:34.982Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:38:38.454Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:38:43.208Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:38:46.939Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:38:47.308Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:38:51.067Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:39:08.460Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:39:13.207Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:39:23.722Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:39:27.522Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:42:50.705Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:42:55.060Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:42:58.668Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:43:36.286Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:43:40.404Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:43:52.608Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:43:56.437Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:43:58.479Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:44:03.160Z"}
+{"level":"info","message":"Hitting creating a new post endpoint","service":"post-service","timestamp":"2025-08-03T13:44:06.980Z"}
+{"0":"\"","1":"m","10":"]","11":".","12":"m","13":"e","14":"d","15":"i","16":"a","17":"t","18":"y","19":"p","2":"e","20":"e","21":"\"","22":" ","23":"i","24":"s","25":" ","26":"n","27":"o","28":"t","29":" ","3":"d","30":"a","31":"l","32":"l","33":"o","34":"w","35":"e","36":"d","4":"i","5":"a","6":"I","7":"d","8":"[","9":"0","level":"error","message":"Validation error:","service":"post-service","timestamp":"2025-08-03T13:44:06.985Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:44:30.361Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:44:33.877Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:44:37.036Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:44:40.544Z"}
+{"level":"info","message":"Hitting creating a new post endpoint","service":"post-service","timestamp":"2025-08-03T13:44:41.719Z"}
+{"level":"info","message":"Post created successfully...","service":"post-service","timestamp":"2025-08-03T13:44:42.083Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:47:50.497Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:47:56.021Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:47:57.593Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:48:01.371Z"}
+{"level":"info","message":"Hitting creating a new post endpoint","service":"post-service","timestamp":"2025-08-03T13:48:11.543Z"}
+{"level":"info","message":"Post created successfully...","service":"post-service","timestamp":"2025-08-03T13:48:11.904Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:49:02.528Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:49:06.145Z"}
+{"level":"info","message":"Hitting creating a new post endpoint","service":"post-service","timestamp":"2025-08-03T13:49:12.231Z"}
+{"level":"info","message":"Post created successfully...","service":"post-service","timestamp":"2025-08-03T13:49:12.585Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:51:05.504Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:51:07.263Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:51:10.911Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:51:17.730Z"}
+{"level":"info","message":"Hitting creating a new post endpoint","service":"post-service","timestamp":"2025-08-03T13:51:18.082Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:51:21.458Z"}
+{"level":"info","message":"Post created successfully...","service":"post-service","timestamp":"2025-08-03T13:51:21.796Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:51:52.819Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:51:56.324Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:52:11.934Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:52:15.507Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:52:16.671Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:52:18.468Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:52:22.381Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:52:25.915Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:52:34.867Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:52:38.362Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:52:39.973Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:52:43.680Z"}
+{"level":"info","message":"Hitting creating a new post endpoint","service":"post-service","timestamp":"2025-08-03T13:52:50.606Z"}
+{"0":"\"","1":"v","10":"y","11":"\"","12":" ","13":"i","14":"s","15":" ","16":"n","17":"o","18":"t","19":" ","2":"i","20":"a","21":"l","22":"l","23":"o","24":"w","25":"e","26":"d","3":"s","4":"i","5":"b","6":"i","7":"l","8":"i","9":"t","level":"error","message":"Validation error:","service":"post-service","timestamp":"2025-08-03T13:52:50.613Z"}
+{"level":"info","message":"Hitting creating a new post endpoint","service":"post-service","timestamp":"2025-08-03T13:53:07.172Z"}
+{"level":"info","message":"Post created successfully...","service":"post-service","timestamp":"2025-08-03T13:53:07.527Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:54:24.456Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:54:29.686Z"}

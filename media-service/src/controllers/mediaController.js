@@ -15,10 +15,10 @@ const uploadMedia = async(req, res) => {
             });
         }
         //Imp things to get from the file
-        const {originalName, mimeType, buffer} = req.file
+        const { originalname, mimetype, buffer } = req.file;
         const userId = req.user.userId
-
-        logger.info(`File details : name=${originalName} type=${mimeType} buffer=${buffer} userId=${userId}`)
+        console.log(req.file, "file")
+        logger.info(`File details : name=${originalname} type=${mimetype} userId=${userId}`)
         logger.info(`Uploading to cloudinary....`)
 
         const cloudUpload = await uploadMediaFileToCloudinary(req.file)
@@ -26,10 +26,10 @@ const uploadMedia = async(req, res) => {
         logger.info(cloudUpload)
         logger.info(`Cloudinary upload successfully. Public Id : ${cloudUpload.public_id}`)
 
-        const newlyCreatedMedia = new Media.create({
+        const newlyCreatedMedia = await Media.create({
             publicId : cloudUpload.public_id,
-            originalName : originalName,
-            mimeType : mimeType,
+            originalName : originalname,
+            mimeType : mimetype,
             url : cloudUpload.secure_url,
             userId : userId
         })
