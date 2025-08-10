@@ -2,6 +2,9 @@ import jwt from 'jsonwebtoken'
 import crypto from "crypto"
 import RefreshToken from '../models/refreshToken.js';
 import logger from './logger.js';
+import dotenv from "dotenv"
+
+dotenv.config()
 
 const generateToken = async(user) => {
     try {
@@ -32,8 +35,8 @@ const generateToken = async(user) => {
         }
 
     } catch (error) {
-        logger.error('Error generating token', error.stack())
-        throw new Error('Error generating token')
+        logger.error('Error generating token', error.stack)
+        throw new Error("Error in generating token");
     }
 }
 

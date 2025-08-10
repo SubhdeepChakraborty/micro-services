@@ -95,10 +95,10 @@ const loginUser = async (req, res) => {
     const isValidPassword = await user.comparedPassword(password);
     logger.info('password : ', isValidPassword)
     if (!isValidPassword) {
-      logger.warn("User already exists with this email or username");
+      logger.warn("User password didn't matched.");
       return res.status(400).send({
         status: false,
-        message: "User already exists with this email or username",
+        message: "User password didn't matched.",
       });
     }
 
