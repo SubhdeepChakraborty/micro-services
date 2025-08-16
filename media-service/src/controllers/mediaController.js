@@ -37,11 +37,12 @@ const uploadMedia = async(req, res) => {
         logger.info(`Created successfully...`)
 
         return res.status(201).send({
-            status : true,
-            message : 'File have been uploaded Successfully',
-            mediaId : newlyCreatedMedia.userId,
-            url : newlyCreatedMedia.url
-        })
+          status: true,
+          message: "File have been uploaded Successfully",
+          userId: newlyCreatedMedia.userId,
+          publicId: newlyCreatedMedia.publicId,
+          url: newlyCreatedMedia.url,
+        });
 
     } catch (error) {
         logger.error(error)
@@ -52,6 +53,23 @@ const uploadMedia = async(req, res) => {
     }
 }
 
+const getAllMedia = async(req, res) => {
+    try {
+        const result = await Media.find({})
+        return res.status(200).send({
+            status : true,
+            data : result
+        })
+    } catch (error) {
+        logger.error(`Something went wrong while fetching`, error)
+        res.status(500).send({
+            status : false,
+            message : 'Something went wrong.'
+        })
+    }
+}
+
 export {
-    uploadMedia
+    uploadMedia,
+    getAllMedia
 }

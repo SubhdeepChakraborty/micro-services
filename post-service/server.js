@@ -10,6 +10,7 @@ import rateLimit from "express-rate-limit"
 import {RedisStore} from "rate-limit-redis"
 import redisClient from "./src/config/redisClient.js"
 import {RateLimiterRedis} from "rate-limiter-flexible"
+import { connectRabbitMq } from "./src/utils/rabbitmq.js"
 
 dotenv.config()
 const PORT = process.env.PORT
@@ -66,10 +67,21 @@ app.use('/api/posts', (req, res, next) => {
 
 app.use(errorHandler)
 
-//start server
-app.listen(process.env.PORT || 5000, () => {
-    logger.info(`Server is running on port ${process.env.PORT || 3002}`);
-})
+async function startServer() {
+    try {
+      await connectRabbitMq();
+      //start server
+      app.listen(process.env.PORT || 5000, () => {
+        logger.info(`Server is running on port ${process.env.PORT || 3002}`);
+      });
+    } catch (error) {
+        logger.error('Failed to connect to server', error)
+        process.exit(1)
+    }
+}
+
+
+startServer()
 
 //unhandler promises rejection
 process.on('unhandledRejection', (reason, promise) => {

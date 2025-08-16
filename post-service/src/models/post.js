@@ -15,6 +15,10 @@ const postSchema = new mongoose.Schema(
           type: mongoose.Schema.Types.ObjectId,
           ref: "media",
         },
+        media : {
+          type : mongoose.Schema.Types.ObjectId,
+          ref : "media"
+        },
         mediatype: {
             type: String,
             enum: ["profile", "private", "public"],

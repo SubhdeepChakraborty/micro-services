@@ -650,3 +650,431 @@
 {"level":"info","message":"Post created successfully...","service":"post-service","timestamp":"2025-08-03T13:53:07.527Z"}
 {"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-03T13:54:24.456Z"}
 {"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-03T13:54:29.686Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T07:38:54.888Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T07:38:59.162Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T07:58:20.911Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T07:58:24.887Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T07:59:43.331Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T07:59:47.228Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:00:01.343Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:00:04.976Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:00:09.903Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:00:13.298Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:00:14.535Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:00:18.210Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:00:53.193Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:00:56.731Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:00:58.935Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:01:02.531Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:01:48.349Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:01:52.404Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:02:17.352Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:02:21.970Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:02:23.350Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:02:26.818Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:02:32.179Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:02:34.379Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:02:38.184Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:02:43.559Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:02:47.609Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:02:47.987Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:02:51.589Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:02:58.515Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:03:02.066Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:03:20.149Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:03:23.819Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:03:25.629Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:03:29.350Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:03:42.909Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:03:46.760Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:04:17.262Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:04:21.765Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:04:24.736Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:04:28.474Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:04:32.230Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:04:35.935Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:04:53.464Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:04:57.148Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:05:31.085Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:05:35.663Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:05:38.272Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:05:41.857Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:05:43.354Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:05:46.954Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:06:03.699Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:06:07.229Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:06:17.959Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:06:21.526Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:06:24.487Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:06:27.926Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:06:37.400Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:06:41.045Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:06:41.493Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:06:45.184Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:07:09.005Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:07:10.142Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:07:13.853Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:07:19.664Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:07:44.123Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:08:04.109Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:08:04.110Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:08:07.668Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:08:53.400Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:08:53.402Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:08:58.482Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:25:03.672Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:25:03.674Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:25:07.645Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:25:17.489Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:25:17.491Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:25:21.265Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:25:23.226Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:25:23.228Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:25:26.711Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:25:35.649Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:25:35.651Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:25:39.250Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:26:11.307Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:26:11.309Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:26:14.893Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:26:16.389Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:26:16.390Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:26:19.888Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:26:39.234Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:26:39.236Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:26:42.961Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:26:43.831Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:26:43.832Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:26:45.252Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:26:45.254Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:26:48.655Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:26:51.803Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:26:51.805Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:26:55.290Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:27:05.412Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:27:05.414Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:27:08.852Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:27:16.840Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:27:16.842Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:27:20.354Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:27:34.195Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:27:34.197Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:27:38.020Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:27:56.966Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:27:56.968Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:28:00.651Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:28:51.010Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:28:51.012Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:28:55.129Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:28:58.537Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:28:58.538Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:29:02.027Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:29:03.479Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:29:03.481Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:29:07.521Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:29:13.404Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:29:13.406Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:29:17.044Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:29:22.934Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:29:22.935Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:29:26.768Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:29:31.047Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:29:31.048Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:29:34.492Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:29:34.970Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:29:34.972Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:29:38.650Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:29:44.491Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:29:44.493Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:29:48.172Z"}
+{"level":"info","message":"Hitting get all posts endpoint....","service":"post-service","timestamp":"2025-08-16T08:30:54.219Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:33:07.792Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:33:07.794Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:33:11.759Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:33:12.971Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:33:12.972Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:33:16.655Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:33:23.389Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:33:23.391Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:33:27.000Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:33:27.918Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:33:27.920Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:33:31.485Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:34:12.311Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:34:12.313Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:34:16.031Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:35:19.486Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:35:19.488Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:35:23.328Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:35:53.959Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:35:53.961Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:35:57.483Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:36:03.402Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:36:03.404Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:36:06.851Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:36:14.179Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:36:14.181Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:36:17.583Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:37:34.160Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:37:34.161Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:37:38.404Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:37:45.071Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:37:45.073Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:37:48.635Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:39:05.470Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:39:05.472Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:39:09.635Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:42:40.492Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:42:40.494Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:42:45.072Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:42:45.074Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:42:48.564Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:43:01.499Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:43:01.500Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:43:05.314Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:43:12.015Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:43:12.017Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:43:14.618Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:43:14.620Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:43:18.241Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:43:21.052Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:43:21.053Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:43:23.492Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:43:23.494Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:43:26.170Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:43:26.171Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:43:29.634Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:47:15.564Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:47:15.566Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:47:19.729Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:48:06.928Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:48:06.930Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:48:10.636Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:48:12.100Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:48:12.101Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:48:15.632Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:48:16.607Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:48:16.608Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:48:20.461Z"}
+{"level":"info","message":"Hitting creating a new post endpoint","service":"post-service","timestamp":"2025-08-16T08:49:57.306Z"}
+{"level":"info","message":"Post created successfully...","service":"post-service","timestamp":"2025-08-16T08:49:57.658Z"}
+{"level":"info","message":"Hitting get all posts endpoint....","service":"post-service","timestamp":"2025-08-16T08:54:09.392Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:54:31.958Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:54:31.959Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:54:35.434Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:55:08.431Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:55:08.432Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:55:12.136Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:55:13.064Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:55:13.066Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:55:16.404Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:55:43.699Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:55:43.701Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:55:47.675Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:56:05.714Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:56:05.715Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:56:07.937Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:56:07.938Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:56:11.559Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:56:13.696Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:56:13.697Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:56:17.126Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:56:17.593Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:56:17.595Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:56:21.011Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:56:27.435Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:56:27.437Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:56:30.997Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:56:42.521Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:56:42.523Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:56:46.041Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:56:48.688Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:56:48.689Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:56:52.282Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:56:54.225Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:56:54.226Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:56:57.495Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:56:58.382Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:56:58.384Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:57:01.870Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:57:37.689Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:57:37.691Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:57:41.397Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:57:42.996Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:57:42.998Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:57:46.780Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T08:59:50.841Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T08:59:50.843Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T08:59:54.876Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:35:00.137Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:35:00.139Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:35:04.179Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:35:05.488Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:35:05.489Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:35:09.003Z"}
+{"level":"info","message":"Hitting delete post endpoint ....","service":"post-service","timestamp":"2025-08-16T09:36:05.310Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:36:50.684Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:36:50.686Z"}
+{"level":"info","message":"Hitting delete post endpoint ....","service":"post-service","timestamp":"2025-08-16T09:36:52.722Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:36:55.218Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:37:31.080Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:37:31.082Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:37:34.605Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:37:35.887Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:37:35.889Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:37:39.553Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:37:46.170Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:37:46.172Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:37:49.625Z"}
+{"level":"info","message":"Hitting delete post endpoint ....","service":"post-service","timestamp":"2025-08-16T09:37:54.439Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:38:28.661Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:38:28.663Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:38:33.214Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:38:34.412Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:38:34.414Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:38:37.948Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:38:54.392Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:38:54.393Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:38:57.461Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:38:57.463Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:39:00.780Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:39:00.782Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:39:04.754Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:39:36.938Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:39:36.940Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:39:40.803Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:39:41.570Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:39:41.571Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:39:44.945Z"}
+{"level":"info","message":"Hitting delete post endpoint ....","service":"post-service","timestamp":"2025-08-16T09:39:55.763Z"}
+{"level":"info","message":"Event published routing key: post.delete","service":"post-service","timestamp":"2025-08-16T09:39:56.100Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:40:24.881Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:40:24.883Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:40:28.725Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:40:30.413Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:40:30.415Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:40:34.356Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:40:46.071Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:40:46.073Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:40:59.935Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:40:59.936Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:41:02.338Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:41:02.340Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:41:02.993Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:41:02.995Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:41:06.777Z"}
+{"level":"info","message":"Hitting get all posts endpoint....","service":"post-service","timestamp":"2025-08-16T09:41:51.843Z"}
+{"level":"info","message":"Hitting creating a new post endpoint","service":"post-service","timestamp":"2025-08-16T09:41:55.663Z"}
+{"level":"info","message":"Post created successfully...","service":"post-service","timestamp":"2025-08-16T09:41:56.070Z"}
+{"level":"info","message":"Hitting get all posts endpoint....","service":"post-service","timestamp":"2025-08-16T09:42:00.279Z"}
+{"level":"info","message":"Hitting delete post endpoint ....","service":"post-service","timestamp":"2025-08-16T09:42:16.834Z"}
+{"level":"info","message":"Event published routing key: post.delete","service":"post-service","timestamp":"2025-08-16T09:42:17.210Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:43:13.074Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:43:13.075Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:43:17.266Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:43:26.870Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:43:26.872Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:43:30.685Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:43:32.327Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:43:32.328Z"}
+{"level":"info","message":"Hitting creating a new post endpoint","service":"post-service","timestamp":"2025-08-16T09:43:33.381Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:43:35.929Z"}
+{"level":"info","message":"Post created successfully...","service":"post-service","timestamp":"2025-08-16T09:43:36.299Z"}
+{"level":"info","message":"Hitting get all posts endpoint....","service":"post-service","timestamp":"2025-08-16T09:43:39.193Z"}
+{"level":"info","message":"Hitting delete post endpoint ....","service":"post-service","timestamp":"2025-08-16T09:43:51.003Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:44:12.159Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:44:12.161Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:44:16.154Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:54:24.875Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:54:24.877Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:54:28.246Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:54:36.638Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:54:36.639Z"}
+{"level":"info","message":"Hitting delete post endpoint ....","service":"post-service","timestamp":"2025-08-16T09:54:38.651Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:54:40.311Z"}
+{"code":"EREFUSED","hostname":"_mongodb._tcp.cluster0.0qv0kjl.mongodb.net","level":"error","message":"Database connection failed querySrv EREFUSED _mongodb._tcp.cluster0.0qv0kjl.mongodb.net","service":"post-service","stack":"Error: querySrv EREFUSED _mongodb._tcp.cluster0.0qv0kjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2025-08-16T09:57:10.050Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:57:30.497Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:57:30.498Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:57:34.881Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:57:37.567Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:57:37.569Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:57:40.786Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:57:40.788Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:57:44.812Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:57:45.132Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:57:45.134Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:57:47.224Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:57:47.225Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:57:51.063Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:57:51.906Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:57:51.911Z"}
+{"level":"info","message":"Hitting delete post endpoint ....","service":"post-service","timestamp":"2025-08-16T09:57:55.325Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:57:55.486Z"}
+{"level":"error","message":"Error deleting post: [] is not a function","service":"post-service","stack":"TypeError: [] is not a function\n    at deleteSinglepost (file:///Users/subhadeepchakraborty/Desktop/Node%20js/micro-service/social-app/post-service/src/controllers/post-controller.js:141:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-16T09:57:55.834Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:58:21.746Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:58:21.748Z"}
+{"level":"info","message":"Hitting delete post endpoint ....","service":"post-service","timestamp":"2025-08-16T09:58:22.891Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:58:26.080Z"}
+{"level":"error","message":"Error deleting post: [] is not a function","service":"post-service","stack":"TypeError: [] is not a function\n    at deleteSinglepost (file:///Users/subhadeepchakraborty/Desktop/Node%20js/micro-service/social-app/post-service/src/controllers/post-controller.js:141:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-16T09:58:26.603Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:58:46.246Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:58:46.248Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:58:49.766Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:59:02.227Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:59:02.228Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:59:05.791Z"}
+{"level":"info","message":"Hitting delete post endpoint ....","service":"post-service","timestamp":"2025-08-16T09:59:06.289Z"}
+{"level":"error","message":"Error deleting post: [] is not a function","service":"post-service","stack":"TypeError: [] is not a function\n    at deleteSinglepost (file:///Users/subhadeepchakraborty/Desktop/Node%20js/micro-service/social-app/post-service/src/controllers/post-controller.js:141:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-16T09:59:08.788Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:59:19.378Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:59:19.380Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T09:59:23.068Z"}
+{"level":"info","message":"Hitting delete post endpoint ....","service":"post-service","timestamp":"2025-08-16T09:59:24.578Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:59:55.023Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:59:55.025Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T09:59:57.894Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T09:59:57.896Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T10:00:01.366Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T10:00:01.368Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T10:00:04.740Z"}
+{"level":"info","message":"Hitting delete post endpoint ....","service":"post-service","timestamp":"2025-08-16T10:00:04.886Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T10:00:24.333Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T10:00:24.334Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T10:00:28.069Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T10:00:37.059Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T10:00:37.061Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T10:00:40.367Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T10:00:40.369Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T10:00:43.697Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T10:00:43.698Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T10:00:47.044Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T10:00:47.046Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T10:00:51.079Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T10:00:52.601Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T10:00:52.603Z"}
+{"level":"info","message":"Hitting delete post endpoint ....","service":"post-service","timestamp":"2025-08-16T10:00:53.792Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T10:00:56.101Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T10:01:32.302Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T10:01:32.304Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T10:01:36.180Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T10:01:36.584Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T10:01:36.586Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T10:01:40.249Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T10:01:42.212Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T10:01:42.214Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T10:01:45.749Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T10:01:46.381Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T10:01:46.382Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T10:01:47.171Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T10:01:47.173Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T10:01:50.850Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-08-16T10:01:53.016Z"}
+{"level":"info","message":"Server is running on port 3002","service":"post-service","timestamp":"2025-08-16T10:01:53.018Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-16T10:01:56.801Z"}
+{"level":"info","message":"Hitting get all posts endpoint....","service":"post-service","timestamp":"2025-08-16T10:01:59.520Z"}
+{"level":"info","message":"Hitting delete post endpoint ....","service":"post-service","timestamp":"2025-08-16T10:02:03.865Z"}
+{"level":"info","message":"Event published routing key: post.delete","service":"post-service","timestamp":"2025-08-16T10:02:04.210Z"}
+{"level":"info","message":"Hitting get all posts endpoint....","service":"post-service","timestamp":"2025-08-16T10:14:37.973Z"}
+{"level":"info","message":"Hitting creating a new post endpoint","service":"post-service","timestamp":"2025-08-16T10:15:02.814Z"}
+{"level":"info","message":"Post created successfully...","service":"post-service","timestamp":"2025-08-16T10:15:03.227Z"}
+{"level":"info","message":"Hitting get all posts endpoint....","service":"post-service","timestamp":"2025-08-16T10:15:06.849Z"}
+{"level":"info","message":"Hitting delete post endpoint ....","service":"post-service","timestamp":"2025-08-16T10:15:36.707Z"}
+{"level":"info","message":"Event published routing key: post.delete","service":"post-service","timestamp":"2025-08-16T10:15:37.055Z"}

@@ -1,5 +1,6 @@
 import Post from "../models/post.js";
 import logger from "../utils/logger.js";
+import { publishEvent } from "../utils/rabbitmq.js";
 import { validatePost } from "../utils/validate.js";
 
 
@@ -121,16 +122,44 @@ const getSinglepost = async (req, res) => {
 const deleteSinglepost = async (req, res) => {
   logger.info("Hitting delete post endpoint ....");
   try {
-    const postId = req.query.postId
-    const username = req.query.username
+    const postId = req.query.postId;
+    const username = req.query.username;
+
+    const post = await Post.findById(postId);
+
+    if (!post) {
+      logger.error(`Post not found`);
+      return res.status(404).send({
+        status: false,
+        message: "Post not found",
+      });
+    }
+
+    let userId = []
+    let mediaId = []
+
+    post.mediaId.forEach((e) => {
+      userId.push(e.userId.toString())
+      mediaId.push(e.media.toString())
+    });
+
+    //publish post delete
+    await publishEvent("post.delete", {
+      postId: post._id.toString(),
+      userId: userId,
+      media: mediaId,
+    });
+
+    await req.redisClient.del(`posts:${username}`);
+
     await Post.deleteOne({
-      _id : postId
-    })
-    await req.redisClient.del(`posts:${username}`)
+      _id: post._id,
+    });
+
     return res.status(200).send({
-      status : true,
-      message : "Post deleted successfully"
-    })
+      status: true,
+      message: "Post deleted successfully",
+    });
   } catch (error) {
     logger.error("Error deleting post:", error);
     res.status(500).json({

@@ -1,7 +1,7 @@
 import express from "express"
 import validateToken from "../middleware/validateToken.js"
 import authenticationReq from "../middleware/authmiddleware.js"
-import { uploadMedia } from "../controllers/mediaController.js"
+import { getAllMedia, uploadMedia } from "../controllers/mediaController.js"
 import multer from "multer"
 import logger from "../utils/logger.js"
 
@@ -36,5 +36,6 @@ const multerUploadMiddleware = (req, res, next) => {
 };
 
 router.post("/file-upload", validateToken, authenticationReq, multerUploadMiddleware, uploadMedia)
+router.get('/get', validateToken, authenticationReq, getAllMedia)
 
 export default router

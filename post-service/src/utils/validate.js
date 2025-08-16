@@ -8,6 +8,7 @@ export const validatePost = (post) => {
         .items(
           joi.object({
             userId: joi.string().length(24), // ObjectId length
+            media: joi.string().length(24),
             mediatype: joi.string().valid("public", "private", "profile").default("public")
           })
         )

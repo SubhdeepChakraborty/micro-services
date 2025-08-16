@@ -8,6 +8,7 @@
     "dev": "nodemon server.js --watch server.js --watch src"
   },
   "dependencies": {
+    "amqplib": "^0.10.8",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
