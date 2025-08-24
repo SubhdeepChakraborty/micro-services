@@ -1,7 +1,7 @@
 import logger from "../utils/logger.js";
 
-const authenticateReq = (req, res, next) => {
-    let userId = req?.headers["x-user-id"];
+const authenticationReq = (req, res, next) => {
+    let userId = req?.headers['x-user-id'];
     if(!userId) userId = req.user.userId
     if(!userId){
         logger.warn(`Access attemped without user Id`)
@@ -14,4 +14,4 @@ const authenticateReq = (req, res, next) => {
     next()
 }
 
-export {authenticateReq}
+export {authenticationReq}

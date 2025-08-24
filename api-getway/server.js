@@ -59,6 +59,28 @@ const proxyOptions = {
     }
 }
 
+//setting up proxy for search service
+app.use(
+  "/v1/search",
+  validateToken,
+  proxy(process.env.SEARCH_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOps, srcReq) => {
+      proxyReqOps.headers["x-user-id"] = srcReq.user.userId;
+      proxyReqOps.headers["content-type"] = "application/json";
+
+      return proxyReqOps;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(
+        `Proxying request to search Service : ${proxyRes.statusCode}`
+      );
+      return proxyResData;
+    },
+  })
+);
+
+
 //setting up proxy for media service
 app.use(
   "/v1/media",
@@ -122,5 +144,6 @@ app.listen(process.env.PORT || 3000, () => {
     logger.info(`Identity Service URL : ${process.env.IDENTITY_SERVICE_URL}`)
     logger.info(`Post Service URL : ${process.env.POST_SERVICE_URL}`);
     logger.info(`Media Service URL : ${process.env.MEDIA_SERVICE_URL}`);
+    logger.info(`Search Service URL : ${process.env.SEARCH_SERVICE_URL}`);
     logger.info(`Redis URL : ${process.env.REDIS_URL}`);
 })

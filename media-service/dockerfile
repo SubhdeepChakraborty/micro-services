@@ -1,0 +1,17 @@
+#Base image
+FROM node:18-alpine
+#working directory
+WORKDIR /media-service
+#copy package.json and yarn.lock
+COPY package.json yarn.lock ./
+# Step 4: Install dependencies using yarn
+RUN yarn install --production=true
+
+# Step 5: Copy all source code
+COPY . .
+
+# Step 6: Expose port (example: 4000)
+EXPOSE 3003
+
+# Step 7: Run the app
+CMD ["yarn", "start"]

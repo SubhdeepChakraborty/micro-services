@@ -32,6 +32,15 @@ const createPost = async (req, res) => {
       await req.redisClient.del(`posts:${username}`);
     }
 
+    console.log(newPost, "post")
+
+    await publishEvent("post.create", {
+      postId: newPost._id.toString(),
+      userId: newPost.mediaId[0]?.userId.toString(),
+      content: newPost.content,
+      createdAt: newPost.createdAt,
+    });
+
     logger.info('Post created successfully...')
     res.status(201).json({
       message: "Post created successfully",
