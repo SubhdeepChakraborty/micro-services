@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   api-gateway:
     build: ./api-gateway
@@ -7,54 +5,49 @@ services:
       - "3000:3000"
     env_file:
       - ./api-gateway/.env
-    depends_on:
-      - redis
     environment:
-      - REDIS_URL=redis://localhost:6379
+      - REDIS_URL=redis://host.docker.internal:6379
+      - RABBIT_MQ=amqp://host.docker.internal:5672
+      - IDENTITY_SERVICE_URL=http://identity-service:3001
+      - POST_SERVICE_URL=http://post-service:3002
+      - MEDIA_SERVICE_URL=http://media-service:3003
+      - SEARCH_SERVICE_URL=http://search-service:3004
+
   identity-service:
     build: ./identity-service
     ports:
       - "3001:3001"
     env_file:
       - ./identity-service/.env
-    depends_on:
-      - redis
     environment:
-      - REDIS_URL=redis://localhost:6379
+      - REDIS_URL=redis://host.docker.internal:6379
+
   media-service:
     build: ./media-service
     ports:
       - "3003:3003"
     env_file:
       - ./media-service/.env
-    depends_on:
-      - redis
-      - rabbitmq
     environment:
-      - REDIS_URL=redis://localhost:6379
-      - RABBIT_MQ=amqp://localhost:5672
+      - REDIS_URL=redis://host.docker.internal:6379
+      - RABBIT_MQ=amqp://host.docker.internal:5672
+
   post-service:
     build: ./post-service
     ports:
       - "3002:3002"
     env_file:
       - ./post-service/.env
-    depends_on:
-      - redis
-      - rabbitmq
     environment:
-      - REDIS_URL=redis://localhost:6379
-      - RABBIT_MQ=amqp://localhost:5672
+      - REDIS_URL=redis://host.docker.internal:6379
+      - RABBIT_MQ=amqp://host.docker.internal:5672
+
   search-service:
     build: ./search-service
     ports:
       - "3004:3004"
     env_file:
       - ./search-service/.env
-    depends_on:
-      - redis
-      - rabbitmq
     environment:
-      - REDIS_URL=redis://localhost:6379
-      - RABBIT_MQ=amqp://localhost:5672
-  
+      - REDIS_URL=redis://host.docker.internal:6379
+      - RABBIT_MQ=amqp://host.docker.internal:5672
