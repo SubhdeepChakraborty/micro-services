@@ -47,11 +47,10 @@ This social media platform demonstrates modern microservices architecture princi
 - **Authentication**: JWT + bcrypt
 
 ### Databases & Storage
-- **Primary DB**: PostgreSQL / MongoDB
+- **Primary DB**: MongoDB
 - **Cache**: Redis
 - **Search**: Elasticsearch
-- **Media Storage**: AWS S3 / Google Cloud Storage
-- **CDN**: CloudFlare / AWS CloudFront
+- **Media Storage**: Cloudinary
 
 ### Infrastructure
 - **Containerization**: Docker + Docker Compose
